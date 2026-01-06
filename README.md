@@ -21,31 +21,19 @@ The task is formulated as a binary classification problem:
 ---
 
 ## Project Structure
-clash-royale-ml/
-
+```clash-royale-ml/
 │
-
-
 ├── src/
-
 │ ├── main.py # Runs all experiments
-
 │ ├── data_loader.py # Data loading and feature construction
-
 │
-
 ├── data/
-
 │ ├── data_ord.csv # Match data
-
 │ ├── cardlist.csv # Card ID to name mapping
-
 │
-
 ├── requirements.txt
-
 └── README.md
-
+```
 
 
 ---
@@ -54,7 +42,7 @@ clash-royale-ml/
 
 The project uses a publicly available dataset of ranked Clash Royale 1v1 matches obtained from Kaggle:
 
-https://www.kaggle.com/datasets/...
+https://www.kaggle.com/datasets/nonrice/clash-royale-battles-upper-ladder-december-2021?select=data_ord.csv
 
 The dataset contains approximately 750,000 matches and includes:
 - Deck compositions for both players
