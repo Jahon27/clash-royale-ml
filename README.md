@@ -71,7 +71,7 @@ All experiments are executed from `main.py`, and results are printed directly to
 
 ## Installation
 
-pip install -r requirements.txt
+``` pip install -r requirements.txt ```
 
-python src/main.py
+``` python src/main.py ```
 
