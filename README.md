@@ -4,7 +4,7 @@ This project investigates whether deck composition in the game *Clash Royale* co
 
 Rather than aiming for perfect prediction accuracy, the goal is to analyze the limits of predictability in competitive multiplayer games and to study how much information can be extracted from static pre-game features such as deck selection and player trophies.
 
-The project was developed as part of the course *Machine Learning Projects (Fall 2025)*.
+The project was developed as part of the course *Machine Learning (Fall 2025)* at Comenius University in Bratislava.
 
 ---
 
