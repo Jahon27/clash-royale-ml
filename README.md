@@ -22,17 +22,30 @@ The task is formulated as a binary classification problem:
 
 ## Project Structure
 clash-royale-ml/
+
 │
+
+
 ├── src/
+
 │ ├── main.py # Runs all experiments
+
 │ ├── data_loader.py # Data loading and feature construction
+
 │
+
 ├── data/
+
 │ ├── data_ord.csv # Match data
+
 │ ├── cardlist.csv # Card ID to name mapping
+
 │
+
 ├── requirements.txt
+
 └── README.md
+
 
 
 ---
@@ -71,5 +84,6 @@ All experiments are executed from `main.py`, and results are printed directly to
 ## Installation
 
 pip install -r requirements.txt
+
 python src/main.py
 
